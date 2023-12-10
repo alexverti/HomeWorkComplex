@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -18,8 +17,8 @@ public class Main {
         int fourth = scanner.nextInt();
         Complex complex2 = new Complex(third, fourth);
 
-        System.out.println("Первое комплексное число:" + complex1.toString());
-        System.out.println("Второе комплексное число:" + complex2.toString());
+        System.out.println("Первое комплексное число:" + complex1);
+        System.out.println("Второе комплексное число:" + complex2);
 
         System.out.println("Результат сравнения: " + Complex.equals(complex1, complex2));
         System.out.println("Результат сложения: " + Complex.sum(complex1, complex2));
